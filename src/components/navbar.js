@@ -12,7 +12,7 @@ function NavbarPrincipal() {
             <div className='col-lg-12'>
                 <Navbar bg="primary" data-bs-theme="dark" expand="lg">
                     <Container >
-                        <Navbar.Brand href="#home"><img src='/assets/images/Logo.png' style={{ width: '30px' }}></img> Level-Up Gamer</Navbar.Brand>
+                        <Navbar.Brand href="#home"><img src='/assets/images/Logo.png' style={{ width: '50px' }}></img> Level-Up Gamer</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto">

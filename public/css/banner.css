@@ -1,0 +1,94 @@
+.bienvenida {
+    background: #0c3865a3 !important;
+    color: white !important;
+    border: 2px solid #1e8fff8a !important;
+    border-radius: 15px !important;
+    overflow: hidden !important;
+}
+
+.bienvenido-titulo {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 700;
+    color: #39FF14;
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.bienvenida .card-text {
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.bienvenida p {
+    color: #D3D3D3;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.mision-titulo,
+.vision-titulo {
+    color: #39FF14;
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.mision-texto,
+.vision-texto {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.bienvenida .btn-primary {
+    background-color: #39FF14;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.bienvenida .btn-primary:hover {
+    background-color: #2de011;
+}
+
+.bienvenida .btn-outline-secondary {
+    color: #ffffff;
+    border-color: #ffffff;
+    font-size: 1rem;
+}
+
+.bienvenida .btn-outline-secondary:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+
+/* Estilos para el carrusel */
+.banner-carousel {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel-image {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.img-container {
+    padding: 20px;
+}
+
+.img-container img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}

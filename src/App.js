@@ -7,21 +7,21 @@ import FooterPrincipal from './components/footer';
 import BannerPrincipal from './components/banner';
 import NavbarPrincipal from './components/navbar';
 import InformacionProducto from './components/informacion';
+import DestacadosProducto from './components/destacados';
 
 
 
 function App() {
   return (
-    <div className="App" style={{ backgroundColor: '#000000ff' }}>
-      <div className="App">
+    
+      <div className="App" style={{ backgroundColor: '#000000ff'}}>
         <div className='container'>
           <NavbarPrincipal />
           <BannerPrincipal />
-          <InformacionProducto />
+          <DestacadosProducto />
         </div>
         <FooterPrincipal />
       </div>
-    </div>
   );
 }
 
